@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "734217112241",
+    "project_id": "mohd-app-test",
+    "storage_bucket": "mohd-app-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734217112241:android:8dd5f6ed0cc7efd2f9f090",
+        "android_client_info": {
+          "package_name": "GhidaqFlowers.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjFS1tBrNRrdFzP4WCWfDYWb55dQ_yBtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
