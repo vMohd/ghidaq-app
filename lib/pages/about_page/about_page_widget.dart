@@ -75,128 +75,122 @@ class _AboutPageWidgetState extends State<AboutPageWidget> {
         centerTitle: true,
         elevation: 2.0,
       ),
-      body: SafeArea(
-        top: true,
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Padding(
-                        padding:
-                            const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
-                        child: Container(
-                          width: 393.0,
-                          height: 170.0,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(16.0),
-                          ),
-                          alignment: const AlignmentDirectional(0.00, 0.00),
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: Image.asset(
-                              'assets/images/logo.png',
-                              width: 240.0,
-                              height: 240.0,
-                              fit: BoxFit.cover,
-                            ),
+      body: SingleChildScrollView(
+        child: Column(
+          mainAxisSize: MainAxisSize.max,
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Column(
+              mainAxisSize: MainAxisSize.max,
+              children: [
+                Row(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Padding(
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
+                      child: Container(
+                        width: 393.0,
+                        height: 170.0,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(16.0),
+                        ),
+                        alignment: const AlignmentDirectional(0.00, 0.00),
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(8.0),
+                          child: Image.asset(
+                            'assets/images/logo.png',
+                            width: 240.0,
+                            height: 240.0,
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ),
-                    ],
-                  ),
-                ],
-              ),
-              Column(
-                mainAxisSize: MainAxisSize.max,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(14.0, 0.0, 0.0, 12.0),
-                    child: Text(
-                      'About Ghidaq',
-                      style:
-                          FlutterFlowTheme.of(context).headlineMedium.override(
-                                fontFamily: 'Outfit',
-                                fontSize: 20.0,
-                                fontWeight: FontWeight.w600,
-                              ),
                     ),
-                  ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Flexible(
-                        child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              14.0, 0.0, 0.0, 12.0),
-                          child: SelectionArea(
-                              child: Text(
-                            'We\'re a blooming app crafted during MLSAC Tech bootcamp, still in the early stages but bursting with floral charm. \n\nOur mission is simple: spreading joy through handpicked blooms and artisanal arrangements. \nEvery petal counts, even as we continue to grow. \n\nJoin us on this floral journey, and let\'s make moments blossom together!\n\nHappy exploring!\n\nGhidaq Flowers\n\nBy: Mohammed Al Sunbul',
-                            style:
-                                FlutterFlowTheme.of(context).bodyLarge.override(
-                                      fontFamily: 'Readex Pro',
-                                      fontSize: 14.0,
-                                    ),
-                          )),
+                  ],
+                ),
+              ],
+            ),
+            Column(
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsetsDirectional.fromSTEB(14.0, 0.0, 0.0, 12.0),
+                  child: Text(
+                    'About Ghidaq',
+                    style: FlutterFlowTheme.of(context).headlineMedium.override(
+                          fontFamily: 'Outfit',
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.w600,
                         ),
-                      ),
-                    ],
                   ),
-                ],
-              ),
-              Column(
-                mainAxisSize: MainAxisSize.max,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Padding(
-                    padding:
-                        const EdgeInsetsDirectional.fromSTEB(14.0, 12.0, 0.0, 10.0),
-                    child: Text(
-                      'Meaning of Ghidaq - غيداق',
-                      style:
-                          FlutterFlowTheme.of(context).headlineMedium.override(
-                                fontFamily: 'Outfit',
-                                fontSize: 20.0,
-                                fontWeight: FontWeight.w600,
-                              ),
+                ),
+                Row(
+                  mainAxisSize: MainAxisSize.max,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Flexible(
+                      child: Padding(
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            14.0, 0.0, 0.0, 12.0),
+                        child: SelectionArea(
+                            child: Text(
+                          'We\'re a blooming app crafted during MLSAC Tech bootcamp, still in the early stages but bursting with floral charm. \n\nOur mission is simple: spreading joy through handpicked blooms and artisanal arrangements. \nEvery petal counts, even as we continue to grow. \n\nJoin us on this floral journey, and let\'s make moments blossom together!\n\nHappy exploring!\n\nGhidaq Flowers\n\nBy: Mohammed Al Sunbul',
+                          style:
+                              FlutterFlowTheme.of(context).bodyLarge.override(
+                                    fontFamily: 'Readex Pro',
+                                    fontSize: 14.0,
+                                  ),
+                        )),
+                      ),
                     ),
-                  ),
-                  Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Flexible(
-                        child: Padding(
-                          padding: const EdgeInsetsDirectional.fromSTEB(
-                              12.0, 0.0, 0.0, 12.0),
-                          child: SelectionArea(
-                              child: Text(
-                            'Ghidaq in Arabic is defined as:\n"The generous, benevolent, and abundant in kindness, a much of everything." \nIt embodies qualities of generosity, kindness, expansiveness, and abundant giving',
-                            style:
-                                FlutterFlowTheme.of(context).bodyLarge.override(
-                                      fontFamily: 'Readex Pro',
-                                      fontSize: 14.0,
-                                    ),
-                          )),
+                  ],
+                ),
+              ],
+            ),
+            Column(
+              mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding:
+                      const EdgeInsetsDirectional.fromSTEB(14.0, 12.0, 0.0, 10.0),
+                  child: Text(
+                    'Meaning of Ghidaq - غيداق',
+                    style: FlutterFlowTheme.of(context).headlineMedium.override(
+                          fontFamily: 'Outfit',
+                          fontSize: 20.0,
+                          fontWeight: FontWeight.w600,
                         ),
-                      ),
-                    ],
                   ),
-                ],
-              ),
-            ],
-          ),
+                ),
+                Row(
+                  mainAxisSize: MainAxisSize.max,
+                  children: [
+                    Flexible(
+                      child: Padding(
+                        padding: const EdgeInsetsDirectional.fromSTEB(
+                            12.0, 0.0, 0.0, 12.0),
+                        child: SelectionArea(
+                            child: Text(
+                          'Ghidaq in Arabic is defined as:\n"The generous, benevolent, and abundant in kindness, a much of everything." \nIt embodies qualities of generosity, kindness, expansiveness, and abundant giving',
+                          style:
+                              FlutterFlowTheme.of(context).bodyLarge.override(
+                                    fontFamily: 'Readex Pro',
+                                    fontSize: 14.0,
+                                  ),
+                        )),
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ],
         ),
       ),
     );
