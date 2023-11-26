@@ -38,18 +38,54 @@ The app database was built with Firebase
 
 - User Authentication by Email : register, login, logout
 - Shop by different occasions: happy birthday, get well soon, graduation, new baby born, weddings, I love you
-- Display bestsellers and new arrivals products
+- Display bestsellers and new arrivals products and full collection
 - Ability to add products to wishlist
 - Information pages: about, flowers care instructions
 - Switch btween light and dark mode
 
 ## Screenshots
 
+### Home page, Shop by Occasion
+<p>
+  <img alt="Home Page" src="media/home.png" width="250"/>
+  <img alt="Home Page" src="media/home2.png" width="250"/>
+  <img alt="Occasion Page" src="media/occasion.png" width="250"/>
+</p>
+
+---
+
+### Wishlist page
+<p>
+  <img alt="Wishlist Page" src="media/wishlist2.png" width="250"/>
+  <img alt="Wishlist Page" src="media/wishlist.png" width="250"/>
+</p>
+
+---
+
+### item Details, Cart, Order Confirmed page
+<p>
+  <img alt="item Details Page" src="media/details.png" width="250"/>
+  <img alt="Cart Page" src="media/checkout.png" width="250"/>
+  <img alt="Success Page" src="media/success.png" width="250"/>
+</p>
+
+---
+
+### Profile Section, Dark mode
+<p>
+  <img alt="Profile" src="media/profile.png" width="250"/>
+  <img alt="Profile Dark" src="media/profile_dark.png" width="250"/>
+</p>
+
+---
+
 ### Information pages
 <p>
   <img alt="About" src="media/about.png" width="250"/>
   <img alt="Care Tips" src="media/care_tips.png" width="250"/>
 </p>
+
+---
 
 
 
