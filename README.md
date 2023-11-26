@@ -21,8 +21,11 @@ This project aims to create a smooth and enjoyable shopping experience for custo
 The app was build using the low-code software [FlutterFlow](https://flutterflow.io/) and it is published to web 
 The app database was built with Firebase
 
-Try it out! :
-[Ghidaq Flowers](https://ghidaq-flowers.flutterflow.app)
+**Explore the app online : [Ghidaq Flowers](https://ghidaq-flowers.flutterflow.app)**
+
+**Available for Android to download : [Ghidaq Flowers App](https://github.com/vMohd/ghidaq-app/releases/download/beta_android/GhidaqFlowers.apk)**
+
+---
 
 <p>
   <img alt="Onboarding" src="media/start.png" width="250"/>
@@ -30,13 +33,14 @@ Try it out! :
   <img alt="sign In" src="media/sign_in.png" width="250"/>
 </p>
 
+
 ## Features
 
 - User Authentication by Email : register, login, logout
 - Shop by different occasions: happy birthday, get well soon, graduation, new baby born, weddings, I love you
 - Display bestsellers and new arrivals products
 - Ability to add products to wishlist
-- Tnformation pages: about, flowers care instructions
+- Information pages: about, flowers care instructions
 - Switch btween light and dark mode
 
 ## Screenshots
