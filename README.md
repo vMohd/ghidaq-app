@@ -45,6 +45,12 @@ The app database was built with Firebase
 
 ## Screenshots
 
+### Information pages
+<p>
+  <img alt="About" src="media/about.png" width="250"/>
+  <img alt="Care Tips" src="media/care_tips.png" width="250"/>
+</p>
+
 
 
 ## Getting Started
